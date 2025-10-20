@@ -1,6 +1,6 @@
 FROM node:20-alpine AS build
 WORKDIR /app
-COPY package.json package-lock.json* pnpm-lock.yaml* yarn.lock* .npmrc* ./ 2>/dev/null || true
+COPY package*.json yarn.lock* pnpm-lock.yaml* ./
 RUN npm install
 COPY . .
 RUN npm run build
