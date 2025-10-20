@@ -5,7 +5,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: bdu_inventory
-    ports: [ "3307:3306" ]
+    ports: [ "3306:3306" ]
     volumes: [ "dbdata:/var/lib/mysql" ]
 
   backend:
