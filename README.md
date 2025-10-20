@@ -1,3 +1,4 @@
+# Soucre code được cung cấp bởi giảng viên Dương Anh Tuấn giảng dạy môn Điện toán đám mây
 # BDU Inventory Management (React + FastAPI + MySQL/RDS)
 
 A practical **inventory management** starter built for VS Code first, then containerized for AWS.
